@@ -131,14 +131,20 @@ body {
 }
 
 .socials-btns a{
-    margin: 5%;
+    margin: 4% 2%;
 
 }
 
 .fa {
-   border: none;
-   color: black;
+    border: none;
+   
 }
 
+.fa-github {
+    color: black;
+}
 
+.fa-linkedin-square {
+    color: #2366C0;
+}
 
