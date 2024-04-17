@@ -48,18 +48,20 @@ body {
 /* Hero Section - Portrait*/
 
 .hero-section {
-      display: flex;
-      margin-top: 7%;
-      width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    
 }
 
 .portrait {
-    margin-top: 5%;
-    margin-left: 25%;
+    width: 25%;
+    
 }
 
 .hero-section img {
     width: 100%;
+    align-self: center;
 }
 
 
@@ -69,9 +71,8 @@ body {
 
 .introduction {
     text-align: center;
-    margin-top: 5%;
-    margin-right: 25%;
-    width: 100%;
+    align-self: center;
+    margin-left: 5%;
 }
 
 .introduction h4 {
@@ -148,3 +149,48 @@ body {
     color: #2366C0;
 }
 
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    
+}
+
+.about-me-header {
+    grid-column-start: span 2;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.about-me-header h4 {
+    color: gray;
+}
+
+.about-me-header h2 {
+    font-size: 3rem;
+}
+
+/* .codecademy-cert {
+    justify-items: center;
+}
+
+.codecademy-cert img {
+    border: gray;
+    width: 75%;
+    
+} */
+
+.certifications {
+    border: solid gray .1rem;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.certifications ul {
+    list-style: none;
+}
