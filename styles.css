@@ -3,11 +3,12 @@
 * {
     margin: 0;
     padding: 0;
+    /* outline: solid red .1rem; */
 }
 
 body {
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -18,12 +19,11 @@ body {
 .navBar {
     display: flex;
     list-style: none;
-    padding: 5% 20% 0 2%;
+    padding: 1% 10% 0 0;
 }
 
 .navBar li {
-    padding-left: 5%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .navBar a {
@@ -33,14 +33,112 @@ body {
 
 .navBar li:first-child {
     margin-right: auto;
-    font-size: 2rem;
+    font-size: 3rem;
+    padding-left: 5%;
 }
 
 .navBar > *:not(:first-child) {
     padding-top: 1%;
+    padding-left: 5%;
 }
 
 
 
-/* Hero Section */
+
+/* Hero Section - Portrait*/
+
+.hero-section {
+      display: flex;
+      margin-top: 7%;
+      width: 100%;
+}
+
+.portrait {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.hero-section img {
+    width: 100%;
+}
+
+
+
+
+/* Hero Section - Introduction*/
+
+.introduction {
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 25%;
+    width: 100%;
+}
+
+.introduction h4 {
+    color: gray;
+}
+
+.introduction h1 {
+    padding-top: 2%;
+    font-size: 3rem;
+}
+
+.introduction h2 {
+    padding-top: 4%;
+    padding-bottom: 10%;
+    color: gray;
+}
+
+
+/* Hero Section - Buttons */
+
+.intro-btn {
+    padding: 3% 4%;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.intro-btn-1 {
+    margin-right: 2%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.intro-btn-1:hover {
+    color: black;
+    background-color: white;
+    border: gray solid .15rem;
+}
+
+.intro-btn-2 {
+    margin-left: 2%;
+    background-color: white;
+    border: gray solid .15rem;
+}
+
+.intro-btn-2:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+
+.socials-btns ul {
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.socials-btns a{
+    margin: 5%;
+
+}
+
+.fa {
+   border: none;
+   color: black;
+}
+
+
 
