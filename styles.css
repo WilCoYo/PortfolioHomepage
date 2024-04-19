@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    outline: solid red .1rem;
+    /* outline: solid red .1rem; */
 }
 
 html {
@@ -232,18 +232,28 @@ body {
     list-style: none;
 }
 
-
-
-.about-me {
-    width: 33%;
-    margin: 2% 5% 5% 2%;
-    line-height: 1.5rem;
-    font-size: 1.25rem
+.about-me-leftside {
+    display: flex;
+    justify-content: center;
+    width: 40%;
 }
 
 
 
+.about-me {
+    width: 100%;
+    margin: 0 5% 5% 30%;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+}
 
+
+
+.about-me-rightside {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
 
 
 
@@ -251,9 +261,10 @@ body {
     border: solid gray .1rem;
     box-shadow: 0px 0px 5px 3px #C6C0C5;
     text-align: center;
-    margin-right: 5%;
     padding: 1% 2% 5% 2%;
     border-radius: 3rem;
+    width: 100%;
+    margin: 0 5%;
 }
 
 .certifications h4 {
@@ -280,21 +291,22 @@ body {
     border: solid darkgrey .1rem;
     box-shadow: 0px 0px 5px 3px #C6C0C5;
     text-align: center;
-    padding: 1% 4% 3% 4%;
-    margin-right: 2%;
+    padding: 1% 2% 5% 2%;
     border-radius: 3rem;
+    width: 100%;
+    margin: 0 5%;
 }
 
 .experience h4 {
     font-weight: bold;
     font-size: 1.5rem;
     padding-top: 5%;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
 }
 
 .experience ul {
     text-align: start;
-    
+    margin-left: 5%;
 }
 
 .experience li {
@@ -591,20 +603,40 @@ footerBase {
 /* About-Me Media Queries */
 
 @media screen and (max-width: 67.5em) {
+
+    .about-me-header {
+        margin-top: 25%;
+    }
+
     .about-me-body {
-        display: block;
-        width: 50%;
-        text-align: center;
-        margin: 0 auto;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
     }
 
     .about-me {
-        width: 100%;
-        margin: 0 auto;
+        width: 75%;
+        margin: 2% auto;
+        display: inline;
     }
 
+    .about-me-leftside {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 2% 5%;
+    }
+
+    .about-me-rightside {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 5%;
+    }
+
+
     .certifications {
-        margin: 5% auto;
+        margin: 2%;
     }
 
     .certifications h4 {
@@ -612,7 +644,7 @@ footerBase {
     }
 
     .experience {
-        margin: 5% auto;
+        margin: 2%;
     }
 
     .experience h4 {
