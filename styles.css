@@ -90,9 +90,9 @@ body {
 .hero-section img {
     width: 100%;
     align-self: center;
-    /* box-shadow: 0px 0px 5px 3px #C6C0C5; */
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 3px #C6C0C5;
 }
-
 
 
 
@@ -178,6 +178,10 @@ body {
    
 }
 
+.fa:hover {
+    scale: 1.1;
+}
+
 .fa-github {
     color: black;
 }
@@ -247,7 +251,9 @@ body {
     font-size: 1.25rem;
 }
 
-
+.about-me:hover{
+    scale: 1.1;
+}
 
 .about-me-rightside {
     display: flex;
@@ -265,6 +271,10 @@ body {
     border-radius: 3rem;
     width: 100%;
     margin: 0 5%;
+}
+
+.certifications:hover {
+    scale: 1.1;
 }
 
 .certifications h4 {
@@ -295,6 +305,10 @@ body {
     border-radius: 3rem;
     width: 100%;
     margin: 0 5%;
+}
+
+.experience:hover {
+    scale: 1.1;
 }
 
 .experience h4 {
@@ -358,7 +372,9 @@ body {
     text-align: center;
 }
 
-
+.frontend:hover {
+    scale: 1.1;
+}
 
 .frontend-lists {
     display: flex;
@@ -395,6 +411,10 @@ body {
     border-radius: 3rem;
     box-shadow: 0px 0px 5px 3px #C6C0C5;
     text-align: center;
+}
+
+.backend:hover {
+    scale: 1.1;
 }
 
 .backend-lists {
@@ -453,7 +473,9 @@ body {
     border-radius: 5rem;
 }
 
-
+.project:hover {
+    scale: 1.1;
+}
 
 .project h3 {
     font-size: 1.5rem;
@@ -565,7 +587,9 @@ body {
     color: blue;
 }
 
-
+.material-symbols-outlined:hover {
+    scale: 1.1;
+}
 
 
 
