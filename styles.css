@@ -438,20 +438,22 @@ body {
 }
 
 .project img {
-    width: 100%;
+    width: 90%;
     border-radius: 5rem;
-    margin-bottom: 10%;
-    padding: 2%;
+    margin: 0 auto;
+    padding: 2% 2% 10% 2%;
 }
 
 .project {
     text-align: center;
-    margin: 0 5%;
-    padding: 2% 2% 2% 2%;
+    margin: 0 1%;
+    padding: 2%;
     border: solid darkgrey .1rem;
     box-shadow: 0px 0px 5px 3px #C6C0C5;
     border-radius: 5rem;
 }
+
+
 
 .project h3 {
     font-size: 1.5rem;
@@ -464,6 +466,8 @@ body {
 .project-3 {
     margin-right: 10%;
 }
+
+
 
 
 
@@ -599,13 +603,76 @@ footerBase {
 
 
 
+/* Tablet - Landscape */
 
-/* About-Me Media Queries */
+@media screen and (max-width: 85.6em) {
+
+    .hero-section {
+        padding-top: 7%;
+    }
+
+    .portrait {
+        width: 35%; 
+    }
+
+
+}
+
+
+
+/* Tablet - Portait*/
 
 @media screen and (max-width: 67.5em) {
 
+    .navBar {
+        padding: 1% 2% 0 0;
+    }
+
+    .hero-section {
+        display: block;
+        margin-top: 0;
+        padding-top: 5%;
+        padding-bottom: 22%;
+    }
+
+    .portrait {
+        width: 50%; 
+        margin: 0 auto;
+    }
+
+    .introduction {
+        margin: 0 auto;
+    }
+
+    .introduction h4 {
+        padding-top: 1%;
+    } 
+
+    .introduction h1 {
+        padding: 0;
+    }
+
+    .introduction h2 {
+        padding-top: 0;
+        padding-bottom: 2%;
+    }
+
+
+    .intro-btn {
+        margin: 0 .5%;
+        padding: 1%;
+    }
+
+    .socials-btns ul a {
+        padding: 1%;
+        margin: 0;
+    }
+
+ 
+
     .about-me-header {
-        margin-top: 25%;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .about-me-body {
@@ -631,7 +698,7 @@ footerBase {
         display: flex;
         justify-content: center;
         width: 100%;
-        margin: 5%;
+        margin: 0 5%;
     }
 
 
@@ -651,4 +718,52 @@ footerBase {
         padding-bottom: 10%;
     }
     
+
+
+
+
+    .project {
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .projects-header {
+        padding-top: 10%;
+    }
+
+
+    .projects-body{
+        justify-content: space-evenly;
+    }
+
+
+
+    .contact-info {
+        border: none;
+    }
+
+    .email-section {
+        border: solid darkgrey .1rem;
+        border-radius: 5rem;
+        padding: 1% 5%;
+    }
+
+    .linkedin-section {
+        margin-top: 1%;
+        border: solid darkgrey .1rem;
+        border-radius: 5rem;
+        padding: 1% 5%;
+    }
+
+
+
+
+    /* header {
+        display: none;
+    }
+
+    .portrait {
+        display: none;
+    } */
+
 }
