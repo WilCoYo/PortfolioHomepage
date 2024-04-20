@@ -30,7 +30,6 @@ html {
 
 body {
     
-    /* background: linear-gradient(#ffffff, #3f3e3e); */
     min-height: 100vh;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -143,7 +142,8 @@ body {
 /* Hero Section - Buttons */
 
 .intro-btn {
-    padding: 3% 7%;
+    font-size: 1.15rem;
+    padding: 2% 4%;
     border-radius: 1rem;
     cursor: pointer;
 }
