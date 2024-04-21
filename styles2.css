@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: solid red .1rem;
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+/* About Me Slideout */
+
+
+.main-body {
+    display: flex;
+    height: 100vh;
+  }
+  
+.main {
+    flex-grow: 1;
+    padding: 1rem;
+    /* overflow-y: auto; */
+  }
+  
+.toggle-btns {
+    width: 9rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    
+  
+    font-size: 1.5rem;
+    color: #ffffff;
+    
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    cursor: pointer;
+
+    /* -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; */
+  }
+  
+  .about-me-toggle:hover {
+    background: #007960;
+  }
+
+  .about-me-toggle {
+    background: #009578;
+    position: fixed;
+    transition-delay: right 2s, top 2s;
+    right: 0;
+    top: 0;
+
+    
+    
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  
+  
+
+  .certifications-toggle {
+    background: #2539e6;
+    position: absolute;
+    right: 0;
+    top: 3.5rem;
+  }
+
+  .certifications-toggle:hover {
+    background: #040e6e;
+  }
+ 
+  .slide-panels {
+    width: 0;
+    flex-shrink: 0;
+    color: #ffffff;
+    background: #009578;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+
+    -webkit-transition-duration: 1.25s;
+    -moz-transition-duration: 1.25s;
+    -o-transition-duration: 1.25s;
+    transition-duration: 1.25s
+  }
+
+
+  .certfications {
+
+  }
+
+.about-me p{
+    margin-right: 9rem;
+}
+  
+
+
+
+
+
+  /* Hero Section - Portrait*/
+
+.hero-section {
+    display: block;
+    height: 90%;
+    padding-top: 5%;
+
+    -webkit-transition-duration: 1.25s;
+    -moz-transition-duration: 1.25s;
+    -o-transition-duration: 1.25s;
+    transition-duration: 1.25s
+}
+
+.portrait {
+    width: 30%; 
+    margin: 0 auto;
+    transition: width 1s;
+}
+
+.hero-section img {
+    width: 100%;
+    align-self: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 3px #C6C0C5;
+}
+
+
+
+/* Hero Section - Introduction*/
+
+.introduction {
+    text-align: center;
+    align-self: center;
+}
+
+.introduction h4 {
+    color: gray;
+}
+
+.introduction h1 {
+    font-size: 3rem;
+}
+
+.introduction h2 {
+    color: gray;
+    padding: 1% 0;
+}
+
+
+/* Hero Section - Buttons */
+
+.intro-btn {
+    font-size: 1.25rem;
+    padding: .5% 1%;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.intro-btn-1 {
+    margin-right: 2%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.intro-btn-1 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.intro-btn-1:hover {
+    color: black;
+    background-color: white;
+    outline: gray solid .15rem;
+}
+
+.intro-btn-2 {
+    background-color: white;
+    outline: gray solid .15rem;
+    border: none;
+}
+
+.intro-btn-2:hover {
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+}
+
+
+.socials-btns ul {
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.socials-btns a{
+    margin: 2% 1%;
+
+}
+
+.fa {
+    border: none;
+   
+}
+
+.fa:hover {
+    scale: 1.1;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-linkedin-square {
+    color: #2366C0;
+}
+
+ 

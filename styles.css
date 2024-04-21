@@ -28,11 +28,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    
-    min-height: 100vh;
-    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 
 /* Scroll to Top Button */
