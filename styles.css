@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    outline: solid red .1rem;
+    /* outline: solid red .1rem; */
     
 }
 
@@ -44,7 +44,6 @@ body {
     flex-shrink: 0;
     display: grid;
     place-items: center;
-    z-index: 5;
   
     font-size: 1.5rem;
     color: #ffffff;
@@ -57,6 +56,8 @@ body {
  
   }
 
+  
+
  
   .about-me-toggle:hover {
     background-color: #b94634;
@@ -67,7 +68,6 @@ body {
     position: fixed;
     right: 0;
     top: 0;
-
     
     -webkit-transition-duration: 1.25s;
     -moz-transition-duration: 1.25s;
@@ -78,7 +78,6 @@ body {
   .about-me {
     background-color: #E37A6B;
     margin: 0;
-
     
   }
   
@@ -88,6 +87,8 @@ body {
     margin-left: 1rem;
 }
 
+
+   
   .certifications-toggle {
     position: fixed;
     right: 0;
@@ -108,7 +109,6 @@ body {
 
   .certifications {
     background-color: #6B9AE3;
-    
     
     -webkit-transition-duration: 1.25s;
     -moz-transition-duration: 1.25s;
